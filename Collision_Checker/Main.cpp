@@ -3,6 +3,13 @@
 
 void Main()
 {
+	Window::SetTitle(U"Collision_Checker");
+
+	Scene::SetResizeMode(ResizeMode::Keep);
+
+	// シーンをリサイズ
+	Scene::Resize(1500, 720);
+
 	Checker checker;
 	checker.init();
 
